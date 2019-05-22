@@ -1,7 +1,0 @@
-C:\Users\Epikano\source\repos\Homework№1_Nikita\Реализация класса HashSet\bin\Debug\Реализация класса HashSet.exe.config
-C:\Users\Epikano\source\repos\Homework№1_Nikita\Реализация класса HashSet\bin\Debug\Реализация класса HashSet.exe
-C:\Users\Epikano\source\repos\Homework№1_Nikita\Реализация класса HashSet\bin\Debug\Реализация класса HashSet.pdb
-C:\Users\Epikano\source\repos\Homework№1_Nikita\Реализация класса HashSet\obj\Debug\Реализация класса HashSet.csprojAssemblyReference.cache
-C:\Users\Epikano\source\repos\Homework№1_Nikita\Реализация класса HashSet\obj\Debug\Реализация класса HashSet.csproj.CoreCompileInputs.cache
-C:\Users\Epikano\source\repos\Homework№1_Nikita\Реализация класса HashSet\obj\Debug\Реализация класса HashSet.exe
-C:\Users\Epikano\source\repos\Homework№1_Nikita\Реализация класса HashSet\obj\Debug\Реализация класса HashSet.pdb

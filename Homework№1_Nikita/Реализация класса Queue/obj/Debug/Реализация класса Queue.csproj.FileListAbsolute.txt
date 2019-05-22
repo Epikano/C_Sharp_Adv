@@ -1,7 +1,0 @@
-C:\Users\Epikano\source\repos\Homework№1_Nikita\Реализация класса Queue\obj\Debug\Реализация класса Queue.csprojAssemblyReference.cache
-C:\Users\Epikano\source\repos\Homework№1_Nikita\Реализация класса Queue\obj\Debug\Реализация класса Queue.csproj.CoreCompileInputs.cache
-C:\Users\Epikano\source\repos\Homework№1_Nikita\Реализация класса Queue\bin\Debug\Реализация класса Queue.exe.config
-C:\Users\Epikano\source\repos\Homework№1_Nikita\Реализация класса Queue\bin\Debug\Реализация класса Queue.exe
-C:\Users\Epikano\source\repos\Homework№1_Nikita\Реализация класса Queue\bin\Debug\Реализация класса Queue.pdb
-C:\Users\Epikano\source\repos\Homework№1_Nikita\Реализация класса Queue\obj\Debug\Реализация класса Queue.exe
-C:\Users\Epikano\source\repos\Homework№1_Nikita\Реализация класса Queue\obj\Debug\Реализация класса Queue.pdb
