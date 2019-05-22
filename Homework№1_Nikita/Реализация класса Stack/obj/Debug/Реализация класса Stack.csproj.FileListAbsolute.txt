@@ -1,0 +1,6 @@
+C:\Users\Epikano\source\repos\Homework№1_Nikita\Реализация класса Stack\bin\Debug\Реализация класса Stack.exe.config
+C:\Users\Epikano\source\repos\Homework№1_Nikita\Реализация класса Stack\bin\Debug\Реализация класса Stack.exe
+C:\Users\Epikano\source\repos\Homework№1_Nikita\Реализация класса Stack\bin\Debug\Реализация класса Stack.pdb
+C:\Users\Epikano\source\repos\Homework№1_Nikita\Реализация класса Stack\obj\Debug\Реализация класса Stack.csproj.CoreCompileInputs.cache
+C:\Users\Epikano\source\repos\Homework№1_Nikita\Реализация класса Stack\obj\Debug\Реализация класса Stack.exe
+C:\Users\Epikano\source\repos\Homework№1_Nikita\Реализация класса Stack\obj\Debug\Реализация класса Stack.pdb

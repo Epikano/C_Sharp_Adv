@@ -1,0 +1,7 @@
+C:\Users\Epikano\source\repos\Homework№1_Nikita\Homework№1_Nikita\bin\Debug\Homework№1_Nikita.exe.config
+C:\Users\Epikano\source\repos\Homework№1_Nikita\Homework№1_Nikita\bin\Debug\Homework№1_Nikita.exe
+C:\Users\Epikano\source\repos\Homework№1_Nikita\Homework№1_Nikita\bin\Debug\Homework№1_Nikita.pdb
+C:\Users\Epikano\source\repos\Homework№1_Nikita\Homework№1_Nikita\obj\Debug\Homework№1_Nikita.csprojAssemblyReference.cache
+C:\Users\Epikano\source\repos\Homework№1_Nikita\Homework№1_Nikita\obj\Debug\Homework№1_Nikita.csproj.CoreCompileInputs.cache
+C:\Users\Epikano\source\repos\Homework№1_Nikita\Homework№1_Nikita\obj\Debug\Homework№1_Nikita.exe
+C:\Users\Epikano\source\repos\Homework№1_Nikita\Homework№1_Nikita\obj\Debug\Homework№1_Nikita.pdb
