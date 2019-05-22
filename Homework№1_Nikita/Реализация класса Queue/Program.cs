@@ -10,6 +10,7 @@ namespace Реализация_класса_Queue
     {
         static void Main(string[] args)
         {
+            //test
             MyQueue<Person> persons = new MyQueue<Person>();
 
             persons.Enqueue(new Person() { Name = "Tom" });
