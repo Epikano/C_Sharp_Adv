@@ -11,7 +11,7 @@ namespace Homework_1_Nikita
     {
         public int Side { get; }
 
-        public T[,] matrix;
+        private T[,] matrix;
         public Matrix(int side)
         {
             Side = side;

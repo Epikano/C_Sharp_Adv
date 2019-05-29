@@ -20,7 +20,7 @@ namespace Homework_1_Nikita
                 for (int j = 0; j < square.Side; j++)
                 {
                     int random = new Random(Guid.NewGuid().GetHashCode()).Next(0, 10);
-                    square.matrix[i, j] = random;
+                    square.Insert(i, j, random);
                 }
             }
             square.Show();
