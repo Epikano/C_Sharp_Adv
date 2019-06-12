@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace BankLibrary
+﻿namespace BankLibrary
 {
+    // Так как у нас есть лишь конкретные счета(Demand, Deposit) - используем abstract class
     public abstract class Account : IAccount
     {
         // Событие, возникающее при выводе денег
@@ -48,7 +45,12 @@ namespace BankLibrary
             get { return _id; }
         }
 
-        // Вызов событий
+        public int Days
+        {
+            get { return _days; }
+        }
+
+        // Вызов событий(сокращаем объем кода)
         private void CallEvent(AccountEventArgs e, AccountStateHandler handler)
         {
             if (handler != null && e != null)
@@ -77,11 +79,13 @@ namespace BankLibrary
             CallEvent(e, Calculated);
         }
 
+        // Добавляем деньги на счет
         public virtual void Put(decimal sum)
         {
             _sum += sum;
             OnAdded(new AccountEventArgs("На счет поступило " + sum, sum));
         }
+        // Выводим деньги со счета
         public virtual decimal Withdraw(decimal sum)
         {
             decimal result = 0;
@@ -108,7 +112,7 @@ namespace BankLibrary
         {
             OnClosed(new AccountEventArgs("Счет " + _id + " закрыт.  Итоговая сумма: " + CurrentSum, CurrentSum));
         }
-
+        // Начисление дней
         protected internal void IncrementDays()
         {
             _days++;
@@ -118,7 +122,8 @@ namespace BankLibrary
         {
             decimal increment = _sum * _percentage / 100;
             _sum = _sum + increment;
-            OnCalculated(new AccountEventArgs("Начислены проценты в размере: " + increment, increment));
+   
+            OnCalculated(new AccountEventArgs("Начислены проценты в размере: " + increment + $" <|Id: {Id}|>" , increment));
         }
     }
 }

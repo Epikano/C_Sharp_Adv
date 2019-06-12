@@ -1,9 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace BankLibrary
+﻿namespace BankLibrary
 {
+    // Интернет посоветовал писать делегат для ивента с параметром объект-инициатор события, ведь он может пригодится(особенно важно в графических программах)
     public delegate void AccountStateHandler(object sender, AccountEventArgs e);
 
     public class AccountEventArgs
