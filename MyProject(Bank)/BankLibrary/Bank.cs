@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using System.Threading.Tasks;
 
@@ -150,7 +151,7 @@ namespace BankLibrary
         }
 
         // Запись информации о счетах банка в текстовый документ
-        public async void TxtDoc(string path)
+        public async Task TxtDoc(string path)
         {
             await Task.Run(() =>
             {
@@ -160,6 +161,7 @@ namespace BankLibrary
                     using (StreamWriter sw = new StreamWriter(fstream))
                     {
                         sw.WriteLine($"\t\t\t\t\t\t\t| Информация о счетах банка {Name} |");
+                        newAccoundAdd();
                         foreach (Account acc in accounts)
                         {
                             string kind = "";
@@ -176,10 +178,24 @@ namespace BankLibrary
                             sw.WriteLine($"Вид: {kind}");
                             sw.WriteLine($"Время существования: {acc.Days}");
                             sw.WriteLine($"Текущая сумма: {acc.CurrentSum}");
+
+                            accountAdd(acc.Id, kind, acc.Days, acc.CurrentSum);
                         }
                     }
                 }
             });
+        }
+
+        // Для базы данных
+        public List<AccountDB> accountsDB;
+
+        void newAccoundAdd()
+        {
+            accountsDB = new List<AccountDB>();
+        }
+        void accountAdd(int id, string kind, int days, decimal currentSum)
+        {
+            accountsDB.Add(new AccountDB { Id = id, Kind = kind, Days = days, CurrentSum = currentSum});
         }
     }
 }

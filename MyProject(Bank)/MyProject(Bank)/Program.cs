@@ -92,7 +92,18 @@ namespace BankApp
                     }
                     if (forCalc)
                         bank.CalculatePercentage();
+
                     bank.TxtDoc(path);
+                    using (AccountContext db = new AccountContext())
+                    {
+                        db.Database.ExecuteSqlCommand("TRUNCATE TABLE [AccountDBs]");
+
+                        foreach (AccountDB a in bank.accountsDB)
+                        {
+                            db.Accounts.Add(a);
+                        }
+                        db.SaveChanges();
+                    }
                 }
                 catch (Exception ex)
                 {
@@ -202,6 +213,6 @@ namespace BankApp
         private static void CloseAccountHandler(object sender, AccountEventArgs e)
         {
             Console.WriteLine(e.Message);
-        } 
+        }
     }
 }
